@@ -1,0 +1,42 @@
+.formBloc {
+  max-width: 280px;
+  border: 2px solid #143d7a;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  padding: 8px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid #143d7a;
+  border-radius: 4px;
+  color: rgb(8, 57, 112);
+}
+
+.input {
+  height: 24px;
+  border: 2px solid #143d7a;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color 0.25s;
+  color: rgb(8, 57, 112);
+}
+
+.error {
+  margin-top: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+.button {
+  background-color: rgb(154, 203, 243);
+}
+
+.button:hover {
+  background-color: rgb(11, 65, 109);
+}
